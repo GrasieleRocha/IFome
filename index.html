@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>IFome</title>
+</head>
+
+<body>
+    <header class="header">
+    <div class="container-header">
+      <h1>Ifome</h1>
+      <p>Sua comida em 12 minutos</p>
+    </div> 
+
+    <div class="container-ifome">
+      <h2 class="dish">Primeiro, seu prato</h2>
+
+    <div class="container-dish">
+      <div class="card-dish">
+          <div class="Bife" onclick="escolherPrato('Bife', '15.00')">
+            <img src="./img/prato01.jpg" alt="imagem de prato com comida">
+            <div class="card-dish-inf">
+            <h3>Bife com batata frita</h3>
+            <h4>Um pouco de batata, um pouco de salada</h4>
+            <h5 class="preco-prato">R$ 15,00</h5>
+          </div>
+        </div>
+          </div>
+          
+          <div class="card-dish">
+          <div class="carne" onclick="escolherPrato('carne', '18.90' )">
+            <img src="./img/prato02.jpg" alt="imagem de prato com comida">
+            <div class="card-dish-inf">
+            <h3>Carne de porco</h3>
+            <h4>Um pouco de batata, um pouco de salada</h4>
+            <h5 class="preco-prato">R$ 18,90</h5>
+          </div>
+          </div>
+          </div>
+        
+          <div class="card-dish">
+          <div class="frango" onclick="escolherPrato('frango', '25.50')">
+            <img src="./img/prato05.jpg" alt="imagem de prato com comida">
+            <div class="card-dish-inf">
+            <h3>Frango com vegetais</h3>
+            <h4>Um pouco de batata, um pouco de salada</h4>
+            <h5 class="preco-prato">R$ 25,50</h5>
+          </div>
+        </div>
+          </div>
+
+          <div class="card-dish">
+          <div class="arroz" onclick="escolherPrato('arroz', '19.90')">
+            <img src="./img/prato04.jpg" alt="imagem de prato com comida">
+            <div class="card-dish-inf">
+            <h3>Arroz</h3>
+            <h4>Um pouco de batata, um pouco de salada</h4>
+            <h5 class="preco-prato">R$ 19,90</h5>
+          </div>
+          </div>
+          </div>
+
+          <div class="card-dish">
+          <div class="frangoAssado" onclick="escolherPrato('frangoAssado', '28.90')">
+            <img src="./img/prato05.jpg" alt="imagem de prato com comida">
+            <div class="card-dish-inf">
+            <h3>Frango Assado</h3>
+            <h4>Um pouco de batata, um pouco de salada</h4>
+            <h5 class="preco-prato">R$ 28,90</h5>
+          </div>
+          </div>
+          </div>
+          
+     </div>
+
+     <div class="container-ifome">
+      <h2>Agora, sua bebida</h2>
+
+      <div class="container-drink">
+        <div class="card-drink">
+            <div class="coca" onclick="escolherDrink('coca', '8.00')">
+              <img src="./img/bebida01.jpg" alt="imagem de prato com comida">
+              <div class="card-dish-inf">
+              <h3>Coca-Cola</h3>
+              <h4>Super gelada</h4>
+              <h5 class="preco-bebida">R$ 8,00</h5>
+            </div>
+          </div>
+            </div>
+            
+            <div class="card-drink">
+              <div class="suco" onclick="escolherDrink('suco', '9.90')">
+              <img src="./img/bebida05.jpg" alt="imagem de prato com comida">
+              <div class="card-dish-inf">
+              <h3>Suco</h3>
+              <h4>Tomate, Pepino e Cenoura</h4>
+              <h5 class="preco-bebida">R$ 9,90</h5>
+            </div>
+            </div>
+            </div>
+          
+            <div class="card-drink">
+              <div class="batida" onclick="escolherDrink('batida', '12.00')">
+              <img src="./img/bebida03.jpg" alt="imagem de prato com comida">
+              <div class="card-dish-inf">
+              <h3>Batida com laranja</h3>
+              <h4>Super deliciosa</h4>
+              <h5 class="preco-bebida">R$ 12,00</h5>
+            </div>
+          </div>
+            </div>
+  
+            <div class="card-drink">
+              <div class="cerveja" onclick="escolherDrink('cerveja', '10.00')">
+              <img src="./img/bebida04.jpg" alt="imagem de prato com comida">
+              <div class="card-dish-inf">
+              <h3>Cerveja Importada</h3>
+              <h4>Super saborosa</h4>
+              <h5 class="preco-bebida">R$ 10,00</h5>
+            </div>
+            </div>
+            </div>
+  
+            <div class="card-drink">
+              <div class="creme" onclick="escolherDrink('creme', '8.50')">
+              <img src="./img/bebida05.jpg" alt="imagem de prato com comida">
+              <div class="card-dish-inf">
+              <h3>Cremes</h3>
+              <h4>Morango</h4>
+              <h5 class="preco-bebida">R$ 8,50</h5>
+            </div>
+            </div>
+            </div>
+       </div>
+
+     <div class="container-ifome">
+    <h2>Por fim, sua sobremesa</h2>
+
+   <div class="container-dessert">
+    <div class="card-dessert">
+      <div class="torta" onclick="escolherSobremesa('torta', '12.00')">
+        <img src="./img/sobremesa01.jpg" alt="imagem de prato com comida">
+        <div class="card-dish-inf">
+          <h3>Torta de chocolate</h3>
+        <h4>Sensacional </h4>
+        <h5 class="preco-sobremesa">R$ 12,00</h5>
+      </div>
+    </div>
+      </div>
+      
+      <div class="card-dessert">
+        <div class="Deliciademorango" onclick="escolherSobremesa('Deliciademorango' , '7.90')">
+          <img src="./img/sobremesa02.jpg" alt="imagem de prato com comida">
+          <div class="card-dish-inf">
+            <h3>Delícia de Morango</h3>
+            <h4>Irresistível</h4>
+            <h5 class="preco-sobremesa">R$ 7,90</h5>
+        </div>  
+      </div>
+        </div>
+
+        <div class="card-dessert">
+          <div class="sorvete" onclick="escolherSobremesa('sorvete', '15.90')">
+            <img src="./img/sobremesa03.jpg" alt="imagem de prato com comida">
+            <div class="card-dish-inf">
+              <h3>Sorvete na Taça</h3>
+              <h4>Ovomaltine</h4>
+              <h5 class="preco-sobremesa">R$ 15,90</h5>
+          </div>
+        </div>
+          </div>
+          <div class="card-dessert">
+            <div class="suspiro" onclick="escolherSobremesa('suspiro', '13.90')">
+              <img src="./img/sobremesa04.jpg" alt="imagem de prato com comida">
+              <div class="card-dish-inf">
+                <h3>Suspiro</h3>
+                <h4>Limão com chocolate</h4>
+                <h5 class="preco-sobremesa">R$ 13,90</h5>
+            </div>
+          </div>
+            </div>
+
+            <div class="card-dessert">
+              <div class="macarons" onclick="escolherSobremesa('macarons' , '5.90')">
+                <img src="./img/sobremesa05.jpg" alt="imagem de prato com comida">
+                <div class="card-dish-inf">
+                  <h3>Macarons</h3>
+                  <h4>Maracujá </h4>
+                  <h5 class="preco-sobremesa">R$ 5,90</h5>
+              </div>
+            </div>
+              </div>
+</div>
+
+<div class="container-footer">
+  <div class="footer">
+    <button class="botao" onclick="resumo()">Selecione os 3 itens <br>para fechar o pedido</button>
+  </div>
+</body>
+
+<script src="scrypt.js"></script>
+</html>
