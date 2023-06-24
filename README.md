@@ -21,6 +21,6 @@ IFomeProjeto de um aplicativo de delivery de comida, o usuário poderá escolher
 ## Link to access the project...
 App no ar: https://ifome01.netlify.app/
 
-## Developer
+## Developer.
 
 [<img src="https://avatars.githubusercontent.com/u/104076058?v=4" width=115><br><sub>Grasiele Rocha</sub>](https://github.com/GrasieleRocha)
