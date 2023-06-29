@@ -7,7 +7,7 @@ IFomeProjeto de um aplicativo de delivery de comida, o usuário poderá escolher
 ## Layout Mobile
 ![WhatsApp Image 2023-03-23 at 10 27 20](https://user-images.githubusercontent.com/104076058/227219527-aac69f2d-307d-4b64-abef-efc64f7efb44.jpeg)
 
-## Tecnologies used.
+## Tecnologies used
 ### languages
 - `HTML`
 - `CSS`
