@@ -13,7 +13,7 @@ IFomeProjeto de um aplicativo de delivery de comida, o usuário poderá escolher
 - `CSS`
 - `JAVASCRIPT`
 
-### Tools.
+### Tools
 - `VS Code`
 - `GitHub`
 - `Netlify`
